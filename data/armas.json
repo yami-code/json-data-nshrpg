@@ -1,0 +1,30 @@
+{
+    "data": [
+      {
+        "nombre": "Atacar",
+        "tipo": "Taijutsu No elemental",
+        "rango": "D",
+        "categoria": "Ofensivo",
+        "sellos": "No",
+        "chakra": 0,
+        "requisitos": null,
+        "alcance": 1,
+        "descripcion": "El usuario ejecuta un ataque directo contra su oponente utilizando golpes físicos, buscando infligir daño con la fuerza y precisión de su cuerpo.",
+        "efectos": "Daña TAI * 0.80",
+        "imagen": null
+      },
+      {
+        "nombre": "Atacar con [Arma]",
+        "tipo": "Taijutsu No elemental",
+        "rango": null,
+        "categoria": "Ofensivo",
+        "sellos": "No",
+        "chakra": 0,
+        "requisitos": null,
+        "alcance": 1,
+        "descripcion": "El usuario emplea un arma equipada para atacar, aprovechando su filo, peso o alcance para aumentar la efectividad del golpe.",
+        "efectos": "Daña ARMA * 0.40 + TAI * 0.40",
+        "imagen": null
+      }
+    ]
+  }
