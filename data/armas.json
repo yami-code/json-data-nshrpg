@@ -1,30 +1,38 @@
 {
     "data": [
-      {
-        "nombre": "Atacar",
-        "tipo": "Taijutsu No elemental",
-        "rango": "D",
-        "categoria": "Ofensivo",
-        "sellos": "No",
-        "chakra": 0,
-        "requisitos": null,
-        "alcance": 1,
-        "descripcion": "El usuario ejecuta un ataque directo contra su oponente utilizando golpes físicos, buscando infligir daño con la fuerza y precisión de su cuerpo.",
-        "efectos": "Daña TAI * 0.80",
-        "imagen": null
-      },
-      {
-        "nombre": "Atacar con [Arma]",
-        "tipo": "Taijutsu No elemental",
-        "rango": null,
-        "categoria": "Ofensivo",
-        "sellos": "No",
-        "chakra": 0,
-        "requisitos": null,
-        "alcance": 1,
-        "descripcion": "El usuario emplea un arma equipada para atacar, aprovechando su filo, peso o alcance para aumentar la efectividad del golpe.",
-        "efectos": "Daña ARMA * 0.40 + TAI * 0.40",
-        "imagen": null
-      }
+        {
+            "nombre": "Shuriken",
+            "rango": "D",
+            "categoria": "Arma de Filo",
+            "subcategoria": "Arma arrojadiza",
+            "daño_base": 290,
+            "tamaño": "pequeño",
+            "requisito": null,
+            "descripcion": "Se caracteriza por ser unas estrellas de metal de cuatro puntas, son muy afiladas, lo suficiente para perforar la carne humana y si le es agregado rotación su daño puede ser mortal.",
+            "formula": null,
+            "aclaraciones": [
+              "No consume hueco en equipamiento",
+              "Son ilimitadas",
+              "No es necesario especificar que estén equipadas en Ronda de Preparación"
+            ],
+            "imagen": null
+          },
+          {
+            "nombre": "Kunai",
+            "rango": "C",
+            "categoria": "Arma de Filo",
+            "subcategoria": "Arma arrojadiza y cuerpo a cuerpo",
+            "daño_base": 300,
+            "tamaño": "pequeño",
+            "requisito": null,
+            "descripcion": "El Kunai se usa casi exclusivamente para el combate. Pudiendo servir como arma arrojadiza, arma cuerpo a cuerpo e incluso para fabricar o formar parte de trampas ninja. Debido a su forma aerodinámica, este arma siempre golpeará con la punta al ser lanzada. ",
+            "formula": null,
+            "aclaraciones": [
+              "No consume hueco en equipamiento",
+              "Son ilimitadas",
+              "No es necesario especificar que estén equipadas en Ronda de Preparación"
+            ],
+            "imagen": null
+          }
     ]
   }
